@@ -1,6 +1,6 @@
-import everywhereApp from "@/assets/everywhere-app.jpg";
+import customizationControl from "@/assets/customization-control.jpg";
 
-const EverywhereSection = () => {
+const IdentitySection = () => {
     return (
         <section className="py-16 px-4">
             <div className="container mx-auto">
@@ -8,17 +8,17 @@ const EverywhereSection = () => {
                     {/* TOP TEXT */}
                     <div className="space-y-2">
                         <h2 className="text-2xl sm:text-3xl font-serif font-medium leading-tight text-foreground">
-                            Sin descargas.
+                            No es una plantilla.
                             <br />
-                            Sin fricción.
+                            Es tu identidad.
                         </h2>
                     </div>
 
                     {/* IMAGE CENTER */}
                     <div className="w-full">
                         <img
-                            src={everywhereApp}
-                            alt="FoodSpot en todas partes"
+                            src={customizationControl}
+                            alt="Personalización de colores y estilos"
                             className="w-full rounded-xl"
                         />
                     </div>
@@ -26,9 +26,9 @@ const EverywhereSection = () => {
                     {/* BOTTOM TEXT */}
                     <div className="space-y-3">
                         <p className="text-base text-muted-foreground leading-relaxed">
-                            Tus clientes escanean y piden.
+                            Configurá colores, estilos y visuales a la altura de tu local.
                             <br />
-                            FoodSpot vive donde está tu negocio.
+                            Un espacio digital donde tu marca se ve profesional.
                         </p>
                     </div>
                 </div>
@@ -37,4 +37,4 @@ const EverywhereSection = () => {
     );
 };
 
-export default EverywhereSection;
+export default IdentitySection;

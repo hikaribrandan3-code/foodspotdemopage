@@ -1,26 +1,38 @@
-import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
-import heroApp from "@/assets/hero-app.jpg";
+import heroApp from "@/assets/hero-app.png";
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen flex flex-col justify-center pt-14 px-4">
+    <section className="min-h-screen flex flex-col justify-center pt-16 px-4">
       <div className="container mx-auto">
-        <div className="flex flex-col items-center text-center space-y-8">
-          {/* Hero image with embedded headline - replaces logo + text */}
-          <div className="relative w-full max-w-sm">
+        <div className="flex flex-col items-center text-center space-y-8 max-w-sm mx-auto">
+          {/* TOP TEXT */}
+          <div className="space-y-2">
+            <h1 className="text-3xl sm:text-4xl font-serif font-medium leading-tight text-foreground">
+              Tu cocina no para.
+              <br />
+              Tu tecnología tampoco debería.
+            </h1>
+          </div>
+
+          {/* IMAGE CENTER */}
+          <div className="w-full">
             <img
               src={heroApp}
-              alt="Este ya es tu app. El sistema con el que funciona tu negocio."
+              alt="FoodSpot en acción - tu app en la cocina"
               className="w-full rounded-xl"
             />
           </div>
 
-          <div className="flex flex-col w-full max-w-xs">
-            <Button size="lg" className="w-full group">
-              Probar demo
-              <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-            </Button>
+          {/* BOTTOM TEXT */}
+          <div className="space-y-3">
+            <p className="text-xl font-medium text-foreground">
+              Este ya es tu app.
+            </p>
+            <p className="text-base text-muted-foreground leading-relaxed">
+              El sistema operativo que convierte tu esfuerzo diario en una marca real.
+              <br />
+              Sin intermediarios.
+            </p>
           </div>
         </div>
       </div>
