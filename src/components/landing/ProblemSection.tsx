@@ -2,10 +2,10 @@ import problemChaos from "@/assets/problem-chaos.jpg";
 
 const ProblemSection = () => {
   return (
-    <section className="py-20 px-4">
+    <section className="py-12 px-4">
       <div className="container mx-auto">
-        <div className="flex flex-col items-center text-center space-y-8">
-          <div className="space-y-4 max-w-sm">
+        <div className="flex flex-col items-center text-center space-y-6">
+          <div className="space-y-3 max-w-sm">
             <h2 className="text-3xl sm:text-4xl font-serif font-medium leading-tight text-foreground">
               PDFs. Links.
               <br />
