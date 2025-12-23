@@ -9,41 +9,34 @@ const HeroSection = () => {
         <div className="flex flex-col items-center text-center space-y-8">
           <div className="space-y-4">
             <p className="text-xs font-medium text-accent uppercase tracking-[0.2em]">
-              Your brand. Your app.
+              Tu marca. Tu app.
             </p>
             <h1 className="text-4xl sm:text-5xl font-serif font-medium leading-[1.15] text-foreground">
-              The system your
+              El sistema que tu
               <br />
-              <span className="italic">restaurant</span>
+              <span className="italic">restaurante</span>
               <br />
-              deserves.
+              merece.
             </h1>
             <p className="text-base text-muted-foreground max-w-xs mx-auto leading-relaxed">
-              No more PDFs. No more chaos. Branding, orders, and management — all in one.
+              No más PDFs. No más caos. Menú, pedidos y gestión — todo en un solo lugar.
             </p>
           </div>
-          
-          <div className="flex flex-col gap-3 w-full max-w-xs">
+
+          <div className="flex flex-col w-full max-w-xs">
             <Button size="lg" className="w-full group">
-              Start free trial
+              Ver demo
               <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button variant="outline" size="lg" className="w-full">
-              See it in action
-            </Button>
           </div>
-          
+
           <div className="relative w-full max-w-sm pt-4">
-            <img 
-              src={solutionApp} 
-              alt="FoodSpot app interface showing menu, orders, and management features"
-              className="w-full rounded-xl shadow-2xl"
+            <img
+              src={solutionApp}
+              alt="FoodSpot app interface"
+              className="w-full rounded-xl"
             />
           </div>
-          
-          <p className="text-xs text-muted-foreground">
-            Trusted by 500+ restaurants
-          </p>
         </div>
       </div>
     </section>

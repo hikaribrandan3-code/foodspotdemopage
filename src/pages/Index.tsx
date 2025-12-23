@@ -14,7 +14,6 @@ const Index = () => {
       <ProblemSection />
       <SolutionSection />
       <FeaturesSection />
-      <CTASection />
       <Footer />
     </main>
   );
